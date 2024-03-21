@@ -1,0 +1,40 @@
+ls = list the files & folders in the current folder
+
+cd (folder path) = change directory
+
+git init = initialize (setup) Git in the folder
+
+git status = tell us what changes have been made since the previous version
+
+TO ADD A VERSION TO VERSION HISTORY {
+    git add (filename)= pick which changes we want in our next version
+
+    . = the whole current folder
+        git add . = add the whole folder into the next version
+
+    git commit -m "describe the version changes" = to create a new version. Commit means version. -m means attaching message to that commit
+    May encounter this error: 
+        Author identity unknown
+
+        *** Please tell me who you are.
+
+        Run
+
+        git config --global user.email "you@example.com"
+        git config --global user.name "Your Name"
+
+        to set your account's default identity.
+        Omit --global to set the identity only in this repository.
+
+        fatal: unable to auto-detect email address (got 'Chan Yong Liang@YongLiang-Laptop.(none)')
+    To fix that:
+        git config --global user.email "chan.yongliang7406@gmail.com"
+        git config --global user.name "Chan Yong Liang"
+
+    git log = to view version history
+}
+
+TO MAKE CHANGES ON PREVIOUS COMMIT MADE {
+    git add (filename or .)
+    git commit -m"Version1" --amend (--ammend means the changes will be applied on the previous commit instead of creating a new one)
+}
