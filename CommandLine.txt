@@ -75,3 +75,8 @@ GIT CLONE {
     make sure in the directory u wish
     git clone (repo http link) (folder name) = to create a clone on the dir
 }
+
+SYNC LOCAL FOLDER WITH EDITED GIT CLONE {
+    git fetch = sync the remote state that in local machine with github (when changes is made on github, local machine wont update it, let say i clone one folder from github and i edited the clone then push back to github, the local machine wont know, so we need to fetch the latest github version to local orginial folder)
+    git pull (nickname of the remote repo) (the branch to pull) = smtg like push
+}
