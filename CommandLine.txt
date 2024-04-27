@@ -51,3 +51,16 @@ TO GO BACK TO PREVIOUS CERTAIN VERSION {
     git log --all --graph = to visualize the branching
     git checkout master = to go back to the latest version
 }
+
+TO LINK WITH GITHUB {
+    make sure the directory is correct
+    git remote add (nickname) (the repo link on github in http) = to link the local and remote repo together
+    git remote = to check which repo is linked
+    git remote -v = more detailed (v = verbose)
+    git remote remove (repo nickname) = remove the remote repo
+}
+
+PUSH {
+    git config --global credential.username "(github username)" = to tell our username
+    git push (repo nickname) (branch name) = push your branch to github
+}
