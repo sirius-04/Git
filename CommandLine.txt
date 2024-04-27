@@ -64,3 +64,9 @@ PUSH {
     git config --global credential.username "(github username)" = to tell our username
     git push (repo nickname) (branch name) = push your branch to github
 }
+
+GIT IGNORE {
+    to hide the files from being uploaded to github
+    create a .gitignore file
+    write the filename inside the .gitignore
+}
