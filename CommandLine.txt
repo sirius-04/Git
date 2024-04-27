@@ -44,3 +44,10 @@ STAGE {
     git reset (filename or .) = remove them from the staged changes
     git checkout -- (filename or .) = undo the changes
 }
+
+TO GO BACK TO PREVIOUS CERTAIN VERSION {
+    git checkout (commit hash) = to view back the previous certain version
+    git log --all = view ALL version history
+    git log --all --graph = to visualize the branching
+    git checkout master = to go back to the latest version
+}
