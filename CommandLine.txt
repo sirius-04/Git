@@ -38,3 +38,9 @@ TO MAKE CHANGES ON PREVIOUS COMMIT MADE {
     git add (filename or .)
     git commit -m"Version1" --amend (--ammend means the changes will be applied on the previous commit instead of creating a new one)
 }
+
+STAGE {
+    git add (filename or .) = add them to staged CHANGES
+    git reset (filename or .) = remove them from the staged changes
+    
+}
