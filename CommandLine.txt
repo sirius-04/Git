@@ -42,5 +42,5 @@ TO MAKE CHANGES ON PREVIOUS COMMIT MADE {
 STAGE {
     git add (filename or .) = add them to staged CHANGES
     git reset (filename or .) = remove them from the staged changes
-    
+    git checkout -- (filename or .) = undo the changes
 }
