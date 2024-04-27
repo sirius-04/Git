@@ -36,7 +36,7 @@ TO ADD A VERSION TO VERSION HISTORY {
 
 TO MAKE CHANGES ON PREVIOUS COMMIT MADE {
     git add (filename or .)
-    git commit -m"Version1" --amend (--ammend means the changes will be applied on the previous commit instead of creating a new one)
+    git commit -m"Version1" --amend (--amend means the changes will be applied on the previous commit instead of creating a new one)
 }
 
 STAGE {
@@ -69,4 +69,9 @@ GIT IGNORE {
     to hide the files from being uploaded to github
     create a .gitignore file
     write the filename inside the .gitignore
+}
+
+GIT CLONE {
+    make sure in the directory u wish
+    git clone (repo http link) (folder name) = to create a clone on the dir
 }
